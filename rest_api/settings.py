@@ -27,7 +27,7 @@ SECRET_KEY = config('SECRET_KEY')
 DEBUG = config('DEBUG')
 
 
-ALLOWED_HOSTS = ['nextjsapi.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'nextjsapi.herokuapp.com']
 
 
 # Application definition
