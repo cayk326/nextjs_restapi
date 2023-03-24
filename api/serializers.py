@@ -2,7 +2,7 @@ from rest_framework import serializers
 from .models import Task, Post
 from django.contrib.auth.models import User
 
-# ユーザーモデル作成用シリアライザー
+# ユーザーモデル作成用シリアライザ
 class UserSerializer(serializers.ModelSerializer):
 
     class Meta:
